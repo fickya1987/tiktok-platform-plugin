@@ -1,0 +1,17 @@
+{
+  "name": "tiktok-platform",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Read TikTok creator profile and public videos via TikTok API v2 (user info + video list).",
+  "author": {
+    "name": "tinkabot"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "main": "./server/index.mjs",
+  "scripts": {
+    "start": "node ./server/index.mjs"
+  }
+}
