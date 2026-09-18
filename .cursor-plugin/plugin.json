@@ -1,0 +1,27 @@
+{
+  "name": "tiktok-platform",
+  "version": "0.1.0",
+  "description": "Read TikTok creator profile and public videos via TikTok API v2 (user info + video list).",
+  "author": {
+    "name": "tinkabot"
+  },
+  "keywords": [
+    "tiktok",
+    "login-kit",
+    "display-api",
+    "mcp"
+  ],
+  "variables": {
+    "type": "object",
+    "properties": {
+      "TIKTOK_ACCESS_TOKEN": {
+        "type": "string",
+        "title": "TikTok access token",
+        "description": "User access token from TikTok OAuth (Login Kit). Required. Do not commit this value."
+      }
+    },
+    "required": [
+      "TIKTOK_ACCESS_TOKEN"
+    ]
+  }
+}
